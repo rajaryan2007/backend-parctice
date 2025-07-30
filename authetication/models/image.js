@@ -5,7 +5,7 @@ const ImageSchema = new mongoose.Schema({
         require:true,
 
     },
-    public:{
+    publicId:{
         type:String,
         require:true
     },
